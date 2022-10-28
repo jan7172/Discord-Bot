@@ -14,7 +14,7 @@ import java.util.Random;
 public class Launcher extends ListenerAdapter {
     private final static InterfacedEventManager manager = new InterfacedEventManager();
     public static JDA jda;
-    private final static String TOKEN = "ODM1MjcwNDA0OTM5NDQ4MzMy.GyFGlV._RfQB6tlRCwSL9og6CyqPvo3vP4izAy4TnDspA";
+    private final static String TOKEN = "Token";
 
     private  final static String PREFIX = "~";
 
