@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 public class Launcher extends ListenerAdapter {
     private final static InterfacedEventManager manager = new InterfacedEventManager();
     public static JDA jda;
-    private final static String TOKEN = "MTAzMzQ4MjI0MTEzMDY0MzUxNw.GohTC4.DTZt1qs9pM2bU2YRLiHRFpm1shv2KHxYSxPM3w";
+    private final static String TOKEN = "token";
 
     private  final static String PREFIX = "~";
 
@@ -31,7 +31,7 @@ public class Launcher extends ListenerAdapter {
                     GatewayIntent.GUILD_MEMBERS);
             builder.setEventManager(manager);
             builder.setEnableShutdownHook(true);
-            builder.setActivity(Activity.watching("Test... Hallo?"));
+            builder.setActivity(Activity.watching(PREFIX + "help"));
             builder.setStatus(OnlineStatus.ONLINE);
             jda = builder.build();
         } catch (Exception e) {
@@ -48,9 +48,7 @@ public class Launcher extends ListenerAdapter {
             if(command.equalsIgnoreCase("ping")){
                 event.getMessage().reply("Pong!").queue();
             }
-            switch (command) {
 
-            }
         }
 
     }
