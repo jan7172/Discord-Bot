@@ -45,7 +45,7 @@
   <component name="RunManager">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logic.Launcher" />
-      <module name="R2D2 Bot" />
+      <module name="rtwodtwo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="logic.*" />
