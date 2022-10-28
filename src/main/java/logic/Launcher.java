@@ -13,7 +13,9 @@ import org.jetbrains.annotations.NotNull;
 public class Launcher extends ListenerAdapter {
     private final static InterfacedEventManager manager = new InterfacedEventManager();
     public static JDA jda;
-    private final static String TOKEN = "Bruh";
+    private final static String TOKEN = "MTAzMzQ4MjI0MTEzMDY0MzUxNw.GohTC4.DTZt1qs9pM2bU2YRLiHRFpm1shv2KHxYSxPM3w";
+
+    private  final static String PREFIX = "~";
 
 
 
@@ -39,8 +41,17 @@ public class Launcher extends ListenerAdapter {
 
     @Override
     public void onMessageReceived(@NotNull MessageReceivedEvent event) {
-        if (!event.getAuthor().isBot()) {
-            event.getMessage().reply("Nachricht erhalten!" + event.getMessage().getContentRaw()).queue();
+        System.out.println("nachricht!");
+        String[] args = event.getMessage().getContentRaw().split("\\s+");
+        String command = args[0].toLowerCase().replaceFirst(PREFIX, "");
+        if (event.getMessage().getContentRaw().startsWith(PREFIX)) {
+            if(command.equalsIgnoreCase("ping")){
+                event.getMessage().reply("Pong!").queue();
+            }
+            switch (command) {
+
+            }
         }
+
     }
 }
