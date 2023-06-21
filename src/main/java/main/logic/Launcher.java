@@ -17,7 +17,7 @@ import java.awt.*;
 public class Launcher extends ListenerAdapter {
     private final static InterfacedEventManager manager = new InterfacedEventManager();
     public static JDA jda;
-    private final static String TOKEN = "ODM1MjY5Nzk1NzY2OTkyOTA3.GBdp7c.uSoDkN9pDC5H93ylrINU5RmQITAfutiOUpMJ2o";
+    private final static String TOKEN = "ODQwMzAxOTI0ODc5MzAyNjg3.GpgiDm.kqzOl9jLcHVcNr_203PAZjFE-tGzIL67AZfaws";
 
     private  final static String PREFIX = "-";
     private final static Database database = Database.getInstance();
