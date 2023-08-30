@@ -23,7 +23,7 @@ import java.io.*;
 public class Launcher extends ListenerAdapter {
     private final static InterfacedEventManager manager = new InterfacedEventManager();
     public static JDA jda;
-    private final static String TOKEN = "ODQwMzAxOTI0ODc5MzAyNjg3.GIvaI4.U78kVKbY2P0OoWAlMRcY14DME5Q45wikLevN-0";
+    private final static String TOKEN = "";
 
     private  final static String PREFIX = "-";
     private final static String MODPREFIX = "-getmod";
@@ -137,7 +137,7 @@ public class Launcher extends ListenerAdapter {
         //modEmbedBuilder.setDescription("List of all mods R2 can send you:");
         for (int i = 0; i < mods.length(); i++) {
             JSONObject modJson = mods.getJSONObject(i);
-            modEmbedBuilder.addField(modJson.getString("displayName"), modJson.getString("description"), true);
+            modEmbedBuilder.addField(modJson.getString("displayName"), modJson.getString("description"), false);
         }
         return modEmbedBuilder;
     }

@@ -1,12 +1,12 @@
 [
   {
     "filename": "No_Error_Popup",
-    "displayName": "No Error Mod (721 fix)",
+    "displayName": "noerror",
     "description": "You dont get the '721' error anymore"
   },
   {
    "filename": "gmiV2_0930.fbmod",
     "displayName": "gmi",
-    "description": "gamemode info, use on own risk"
+    "description": "game mode info, usage on own risk"
   }
 ]
