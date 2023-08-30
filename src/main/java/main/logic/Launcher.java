@@ -63,7 +63,8 @@ public class Launcher extends ListenerAdapter {
             String hsMapVar = "Hero Showdown: Kamino > Mos Eisley > Naboo > Hoth > Takodana > Death Star II > Yavin 4 > Starkiller Base > Endor > Kashyyyk > Jakku > Bespin > Jabba's Palace > Kessel > Geonosis";
             String gaMapVar = "GA: Geonosis > Kashyyyk > Death Star 2 > Jakku > Endor > Kamino > Tatooine > Starkiller Base > Yavin 4 > Naboo > Hoth > Takodana > Crait\n";
             String modList = "noerror";
-            File mod = new File("Mods" + FS + "No_Error_Popup.fbmod");
+            File noError = new File("Mods" + FS + "No_Error_Popup.fbmod");
+            File gmi = new File("Mods" + FS + "gmiV2_0930.fbmod");
 
             String[] args = event.getMessage().getContentRaw().split("\\s+");
             String command = args[0].toLowerCase().replaceFirst(PREFIX, "").toLowerCase();
@@ -85,10 +86,11 @@ public class Launcher extends ListenerAdapter {
                     }
                     String modCommand = args[1].toLowerCase();
                     if (modCommand.equals("noerror")) {
-                        event.getMessage().reply("Hier die Datei:").addFiles(FileUpload.fromData(mod)).queue();
+                        event.getMessage().reply("Hier die Datei:").addFiles(FileUpload.fromData(noError)).queue();
+                    } else if (modCommand.equals("gmi")) {
+                        event.getMessage().reply("Hier die Datei").addFiles(FileUpload.fromData(gmi)).queue();
                     } else {
                         event.getMessage().replyEmbeds(getModListBuilder().build()).queue();
-
                     }
                 }
                 else if (command.equals("help")) {
@@ -132,7 +134,7 @@ public class Launcher extends ListenerAdapter {
         EmbedBuilder modEmbedBuilder = new EmbedBuilder();
         modEmbedBuilder.setTitle("List of all mods");
         modEmbedBuilder.setColor(Color.RED);
-        modEmbedBuilder.setDescription("List of all mods R2 can send you:");
+        //modEmbedBuilder.setDescription("List of all mods R2 can send you:");
         for (int i = 0; i < mods.length(); i++) {
             JSONObject modJson = mods.getJSONObject(i);
             modEmbedBuilder.addField(modJson.getString("displayName"), modJson.getString("description"), true);
