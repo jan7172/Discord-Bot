@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="064c4ae7-853e-4e2d-bc26-de507b04a6c3" name="Changes" comment="Random emotes function">
-      <change afterPath="$PROJECT_DIR$/Mods/No_Error_Popup.fbmod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mods/mods.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="064c4ae7-853e-4e2d-bc26-de507b04a6c3" name="Changes" comment="New functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mods/mods.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mods/mods.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/logic/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/logic/Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +27,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2GktQYfa5B6PmAtcKv2E4WSeYOY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -102,7 +99,9 @@
       <workItem from="1683403238719" duration="1269000" />
       <workItem from="1683878278285" duration="4013000" />
       <workItem from="1692784943913" duration="896000" />
-      <workItem from="1693380776470" duration="8202000" />
+      <workItem from="1693380776470" duration="11084000" />
+      <workItem from="1693397036022" duration="293000" />
+      <workItem from="1693397458845" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="First step">
       <created>1666944984582</created>
@@ -146,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1683287055476</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New functions">
+      <option name="closed" value="true" />
+      <created>1693390865900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693390865900</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +176,7 @@
     <MESSAGE value="Alpha 1.0" />
     <MESSAGE value="Test for token" />
     <MESSAGE value="Random emotes function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Random emotes function" />
+    <MESSAGE value="New functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="New functions" />
   </component>
 </project>

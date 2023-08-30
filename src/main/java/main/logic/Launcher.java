@@ -88,9 +88,10 @@ public class Launcher extends ListenerAdapter {
                         event.getMessage().reply("Hier die Datei:").addFiles(FileUpload.fromData(mod)).queue();
                     } else {
                         event.getMessage().replyEmbeds(getModListBuilder().build()).queue();
+
                     }
                 }
-                    else if (command.equals("help")) {
+                else if (command.equals("help")) {
                     EmbedBuilder embedBuilder = new EmbedBuilder();
                     embedBuilder.setTitle("R2D2 Bot");
                     embedBuilder.setColor(Color.RED);
