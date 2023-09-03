@@ -87,19 +87,19 @@ public class Launcher extends ListenerAdapter {
                     String modCommand = args[1].toLowerCase();
                     switch (modCommand) {
                         case "noerror":
-                            event.getMessage().reply("Hier die Datei:").addFiles(FileUpload.fromData(noError)).queue();
+                            event.getMessage().reply("Here is the file:").addFiles(FileUpload.fromData(noError)).queue();
                             break;
                         case "gmi":
-                            event.getMessage().reply("Hier die Datei").addFiles(FileUpload.fromData(gmi)).queue();
+                            event.getMessage().reply("Here is the file:").addFiles(FileUpload.fromData(gmi)).queue();
                             break;
                         case "automute":
-                            event.getMessage().reply("Hier die Datei").addFiles(FileUpload.fromData(autoMute)).queue();
+                            event.getMessage().reply("Here is the file:").addFiles(FileUpload.fromData(autoMute)).queue();
                             break;
                         case "hitsound":
-                            event.getMessage().reply("Hier die Datei").addFiles(FileUpload.fromData(hitSound)).queue();
+                            event.getMessage().reply("Here is the file:").addFiles(FileUpload.fromData(hitSound)).queue();
                             break;
                         case "killsound":
-                            event.getMessage().reply("Hier die Datei").addFiles(FileUpload.fromData(killSound)).queue();
+                            event.getMessage().reply("Here is the file:").addFiles(FileUpload.fromData(killSound)).queue();
                             break;
                         default:
                             event.getMessage().replyEmbeds(getModListBuilder().build()).queue();
