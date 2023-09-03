@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="064c4ae7-853e-4e2d-bc26-de507b04a6c3" name="Changes" comment="Bug fixes">
-      <change afterPath="$PROJECT_DIR$/Mods/Auto Voice Mute.fbmod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mods/Reysious' Hit SFX.fbmod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mods/Reysious' Kill SFX.fbmod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mods/mods.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mods/mods.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/logic/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/logic/Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +120,7 @@
       <workItem from="1693695301353" duration="1159000" />
       <workItem from="1693696885394" duration="833000" />
       <workItem from="1693697936253" duration="332000" />
-      <workItem from="1693698540266" duration="1580000" />
+      <workItem from="1693698540266" duration="1778000" />
     </task>
     <task id="LOCAL-00001" summary="First step">
       <created>1666944984582</created>
@@ -193,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693416323038</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Bug fixes">
+      <option name="closed" value="true" />
+      <created>1693701464528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693701464528</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Bug fixes">
+      <option name="closed" value="true" />
+      <created>1693701564116</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693701564116</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

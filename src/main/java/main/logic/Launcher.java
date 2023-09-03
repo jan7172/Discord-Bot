@@ -22,7 +22,7 @@ import java.io.*;
 public class Launcher extends ListenerAdapter {
     private final static InterfacedEventManager manager = new InterfacedEventManager();
     public static JDA jda;
-    private final static String TOKEN = "";
+    private final static String TOKEN = "Token Here";
 
     private final static String PREFIX = "-";
     private final static String MODPREFIX = "-getmod";
