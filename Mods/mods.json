@@ -7,6 +7,21 @@
   {
    "filename": "gmiV2_0930.fbmod",
     "displayName": "gmi",
-    "description": "game mode info, usage on own risk"
+    "description": "Game mode info, usage on own risk"
+  },
+  {
+    "filename": "Auto Voice Mute.fbmod",
+    "displayName": "automute",
+    "description": "Mute automatically all people in a lobby"
+  },
+  {
+    "filename": "Reysious' Hit SFX.fbmod",
+    "displayName": "hitsound",
+    "description": "Adds the hit sound effect (Classic COD Hit Marker) from the Reysious' videos"
+  },
+  {
+    "filename": "Reysious' Kill SFX.fbmod",
+    "displayName": "killsound",
+    "description": "Adds the kill sound effect (Nice Meme) from Reysious' videos"
   }
 ]

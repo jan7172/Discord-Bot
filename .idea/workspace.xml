@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="064c4ae7-853e-4e2d-bc26-de507b04a6c3" name="Changes" comment="Bug fixes">
+      <change afterPath="$PROJECT_DIR$/Mods/Auto Voice Mute.fbmod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mods/Reysious' Hit SFX.fbmod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mods/Reysious' Kill SFX.fbmod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mods/mods.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mods/mods.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/logic/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/logic/Launcher.java" afterDir="false" />
@@ -39,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/janba/IdeaProjects/Discord-Obi-Wan-bot3/Mods",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/janba/IdeaProjects/Discord-Obi-Wan-bot3/Mods&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\janba\IdeaProjects\Discord-Obi-Wan-bot3\Mods" />
@@ -118,7 +121,11 @@
       <workItem from="1693397036022" duration="293000" />
       <workItem from="1693397458845" duration="926000" />
       <workItem from="1693412936729" duration="655000" />
-      <workItem from="1693414391817" duration="1915000" />
+      <workItem from="1693414391817" duration="3834000" />
+      <workItem from="1693695301353" duration="1159000" />
+      <workItem from="1693696885394" duration="833000" />
+      <workItem from="1693697936253" duration="332000" />
+      <workItem from="1693698540266" duration="1580000" />
     </task>
     <task id="LOCAL-00001" summary="First step">
       <created>1666944984582</created>
@@ -178,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693415072546</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Bug fixes">
+      <option name="closed" value="true" />
+      <created>1693416323038</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693416323038</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
