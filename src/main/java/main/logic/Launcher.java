@@ -22,7 +22,7 @@ import java.io.*;
 public class Launcher extends ListenerAdapter {
     private final static InterfacedEventManager manager = new InterfacedEventManager();
     public static JDA jda;
-    private final static String TOKEN = "Token Here";
+    private final static String TOKEN = "ODQwMzAxOTI0ODc5MzAyNjg3.GHAj6z.TWVJGsNNhHtQti4e24xHzc4nQEKxMBnZLnQeHI";
 
     private final static String PREFIX = "-";
     private final static String MODPREFIX = "-getmod";
@@ -56,7 +56,6 @@ public class Launcher extends ListenerAdapter {
     @Override
     public void onMessageReceived(@NotNull MessageReceivedEvent event) {
         try {
-            System.out.println("Message !");
             String hvvMapVar = "HVV: Kamino > Mos Eisley > Naboo > Hoth > Takodana > Death Star II > Yavin 4 > Starkiller Base > Endor > Kashyyyk > Jakku > Bespin > Jabba's Palace > Kessel > Geonosis > Separatist Dreadnought > Republic Attack Cruiser > Felucia > Ajan Kloss\n";
             String hsMapVar = "Hero Showdown: Kamino > Mos Eisley > Naboo > Hoth > Takodana > Death Star II > Yavin 4 > Starkiller Base > Endor > Kashyyyk > Jakku > Bespin > Jabba's Palace > Kessel > Geonosis";
             String gaMapVar = "GA: Geonosis > Kashyyyk > Death Star 2 > Jakku > Endor > Kamino > Tatooine > Starkiller Base > Yavin 4 > Naboo > Hoth > Takodana > Crait\n";
@@ -107,17 +106,17 @@ public class Launcher extends ListenerAdapter {
                     }
                 } else if (command.equals("help")) {
                     EmbedBuilder embedBuilder = new EmbedBuilder();
-                    embedBuilder.setTitle("R2D2 Bot");
+                    embedBuilder.setTitle("R2D2 Discord-Bot");
                     embedBuilder.setColor(Color.RED);
-                    embedBuilder.setDescription("R2D2 is a bot for Battlefront fans. You can use following commands:");
+                    embedBuilder.setDescription("R2D2 is a Discord Bot, designed for the Battlefront 2 community." + "\n" + "The following commands are available to you");
                     embedBuilder.addField("-rotationga", "Shows the map rotation for Galactic Assault", true);
                     embedBuilder.addField("-rotationhvv", "Shows the map rotation for Hero VS Villains", true);
                     embedBuilder.addField("-rotationhs", "Shows the map rotation for Hero Showdown", true);
-                    embedBuilder.addField("", "", false);
+                    embedBuilder.addField("", "", true);
                     embedBuilder.addField("-getmod", "Send you a specific mod file for Battlefront 2.", false);
                     embedBuilder.addField("-modlist", "Send you a list with all mods R2D2 can send you", false);
-
-
+                    embedBuilder.setFooter("This Discord Bot was programmed in Java by BigKill." +"\n" + "For questions, bug reports and requests, send me a messange on Discord." + "\n" + "Discord ID: -> bigkill");
+                    embedBuilder.addField("", "", true);
                     event.getMessage().replyEmbeds(embedBuilder.build()).queue();
                 }
             }
